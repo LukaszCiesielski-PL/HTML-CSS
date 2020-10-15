@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    background-image: url(../img/home-img/12856.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.main{
+    float: right;
+    width: 83%;
+    height: auto;
+    margin-top: 100px;
+    
+}
+.main_content{
+    height: 870px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #f1f1f1;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+.left{
+    float: left;
+    width: 59.5%;
+    height: auto;
+    margin: 5% 3% 5% 5%;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right{
+    float: right;
+    width: 27%;
+    height: auto;
+    height: max-content;
+    margin: 7% 5% 3% 0; 
+}
+hr{
+    height: 3px;
+    background-color: #555;
+}
+.info{
+    border-left: 3px solid #555;
+    padding-left: 5%;
+}
+.legends_left{
+    float: left;
+    width: 50%;
+    font-size: 14px;
+}
+.legends_right{
+    float: left;
+    width: 50%;
+}
+.icon{
+    padding-right: 5%;
+}
+@media all and (max-width:1600px){
+    .main_content{
+        height: 1240px;
+    }
+    .left{
+        float: left;
+        width: 90%;
+        height: auto;
+        margin: 5% 5% 3% 5%;
+        text-align: justify;
+        
+    }
+    .right{
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 5% 0 5% 0; 
+    } 
+    .legends_left{
+        float: left;
+        width: 50%;
+        font-size: 14px;
+        
+    }
+    .legends_right{
+        float: left;
+        width: 50%;
+        
+    }
+    .maps{
+        width: 600px;
+        height: 400px;
+    }
+}
+@media all and (min-width:260px) and (max-width:1024px) {
+    .container{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-image: url(../img/home-img/12856.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        z-index: -1;
+    }
+    .main{
+        width: 100%;
+        height: 90%;
+        margin-top: 100px;
+        
+    }
+    .main_content{
+        height: 1320px;
+        width: 90%;
+        margin-left: 5%;
+        background-color: #f1f1f1;
+        opacity: 0.9;
+        border-radius: 4px;
+        
+    }
+    .left{
+        float: left;
+        width: 90%;
+        height: auto;
+        margin: 5% 5% 3% 5%;
+        text-align: justify;
+        
+    }
+    .right{
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 5% 0 5% 0; 
+    } 
+    .legends_left{
+        float: left;
+        width: 50%;
+        font-size: 14px;
+        
+    }
+    .legends_right{
+        float: left;
+        width: 50%;
+        
+    }
+    .maps{
+        width: 600px;
+        height: 400px;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+
+
+@media all and (max-width:770px) {
+    .main_content{
+        height: 1430px;  
+    }
+    .legends_left{
+        font-size: 12px;
+    }
+}
+@media all and (max-width:665px) {
+    .main_content{
+        height: 1520px;  
+    }
+    .legends_left{
+        font-size: 10px;
+    }
+}
+@media all and (max-width:550px) {
+    .main_content{
+        height: 1450px;  
+    }
+    .legends_left{
+        font-size: 10px;
+    }
+}
+@media all and (max-width:550px) {
+    .main_content{
+        height: 1450px;  
+    }
+    .legends_left{
+        font-size: 12px;
+        width: 100%;
+    }
+}
+@media all and (max-width:360px) {
+    .main_content{
+        height: 1750px;  
+    }
+    .legends_left{
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
